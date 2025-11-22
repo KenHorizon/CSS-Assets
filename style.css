@@ -89,6 +89,14 @@ h1 {
     flex-direction: row;
     width: max-content;
 }
+.headers-items {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+    margin-bottom: -1px; 
+    background-color:#fff;
+    border:1px solid #ddd
+}
 .card-0 {
     padding: min(1.2em, 10%);
     border: 2px solid rgba(131, 131, 131, 1.0);
