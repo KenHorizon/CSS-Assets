@@ -81,6 +81,12 @@ h1 {
     background-color: rgb(96, 96, 249);
     color: #fff;
 }
+
+.header {
+    display: flex;
+    flex-direction: row;
+}
+
 .card-0 {
     padding: min(1.2em, 10%);
     border: 2px solid rgba(131, 131, 131, 1.0);
