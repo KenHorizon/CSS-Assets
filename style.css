@@ -89,13 +89,21 @@ h1 {
     flex-direction: row;
     width: max-content;
 }
-.headers-items {
+.headers-item {
     position: relative;
     display: block;
     padding: 10px 15px;
     margin-bottom: -1px; 
     background-color:#fff;
     border:1px solid #ddd
+}
+.headers-item.active {
+    background-color: rgb(96, 96, 249);
+    color: white;
+}
+.headers-item.disabled {
+    background-color: rgb(193, 193, 255);
+    color: white;
 }
 .card-0 {
     padding: min(1.2em, 10%);
